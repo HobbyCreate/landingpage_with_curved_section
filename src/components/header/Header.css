@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.header-container {
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+
+.logo {
+    font-size: 0.3rem;
+}
+
+.secondary-btn {
+    background: #fff;
+    font-family: Poppins;
+    border: 1px solid hsl(322, 100%, 66%);
+    padding: 8px 20px;
+    border-radius: 15px;
+    color: hsl(322, 100%, 66%);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.secondary-btn:hover {
+    background: hsl(322, 100%, 66%);
+    font-family: Poppins;
+    border: 1px solid hsl(322, 100%, 66%);
+    padding: 8px 20px;
+    border-radius: 15px;
+    color: hsl(0, 0%, 100%);
+}

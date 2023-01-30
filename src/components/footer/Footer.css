@@ -1,0 +1,77 @@
+.footer-curve {
+    background-image: url('../../assets/images/bg-footer-top-desktop.svg');
+    background-size: cover;
+    height: 158px;
+    width: 100%;
+}
+.footer {
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    font-family: 'Open Sans';
+    padding-top: 50px;
+}
+
+.footer .contact,
+.footer .newsletter {
+    font-size: 1rem;
+    color: hsl(0,0%,100%);
+}
+
+.contact {
+    max-width: 400px;
+    padding-left: 50px;
+    margin-right: 50px;
+}
+
+.newsletter {
+    order: 1;
+    max-width: 500px;
+    padding-right: 50px;
+}
+
+.contact > p,
+.newsletter > p {
+    font-size: 0.9rem;
+    margin: 15px auto;
+}
+
+.cont {
+    display: inline-flex;
+    margin: 20px 0;
+}
+
+.cont > img {
+    margin: 0 20px 0 0;
+}
+
+.input {
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.input > input {
+    border-radius: 5px;
+    width: 60%;
+    padding: 0 10px;
+    font-size: 1rem;
+    margin: 0 20px 0 0;
+}
+
+.third-btn {
+    background: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    padding: 10px 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.third-btn:hover {
+    background: hsl(0, 0%, 100%);
+    border: 1px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    font-weight: bold;
+}

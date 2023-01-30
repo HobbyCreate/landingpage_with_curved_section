@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+.hero-container {
+    font-family: 'Open Sans';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.hero-container > h1 {
+    margin: 20px;
+}
+
+.hero-paragraph {
+    text-align: center;
+    max-width: 400px;
+}
+
+.hero-container > img {
+    max-width: 80%;
+}
+
+.primary-btn {
+    background: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    padding: 15px 30px;
+    width: 80%;
+    font-size: 1rem;
+    border-radius: 30px;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    margin: 20px 0;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    background: hsl(0, 0%, 100%);
+    border: 1px solid hsl(322, 100%, 66%);
+    padding: 15px 30px;
+    width: 80%;
+    font-size: 1rem;
+    border-radius: 30px;
+    color: hsl(322, 100%, 66%);
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.interact {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.communities > h1,
+.messages > h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.communities > p,
+.messages > p {
+    text-align: center;
+}
+
+.mockup-img{
+    margin: 50px 0;
+}
